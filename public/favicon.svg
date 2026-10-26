@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="psygmaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3A5242"/>
+      <stop offset="45%" stop-color="#34483A"/>
+      <stop offset="100%" stop-color="#1E2B22"/>
+    </linearGradient>
+    <linearGradient id="psiFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F4F0E8"/>
+    </linearGradient>
+    <radialGradient id="innerAura" cx="50%" cy="45%" r="44%">
+      <stop offset="0%" stop-color="#A6B59A" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#34483A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#141E17" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <!-- Background Squircle -->
+  <rect width="512" height="512" rx="120" fill="url(#psygmaBg)"/>
+  <!-- Elegant Sage Accent Ring -->
+  <rect x="10" y="10" width="492" height="492" rx="110" fill="none" stroke="#A6B59A" stroke-width="6" stroke-opacity="0.38"/>
+  <!-- Subtle Mindful Aura -->
+  <circle cx="256" cy="245" r="160" fill="url(#innerAura)"/>
+  <!-- Greek Ψ (Psi) Neural / Mind Mark -->
+  <path d="M451.0 137.8Q447.0 138.0 439.4 139.5Q431.8 141.0 426.8 143.7Q420.7 146.9 418.3 151.9Q415.8 156.8 415.8 163.1V214.1Q415.8 261.9 384.8 286.0Q353.7 310.1 289.6 310.6V351.7Q289.6 358.6 292.1 363.8Q294.5 369.1 301.8 372.1Q306.2 373.8 315.4 375.6Q324.6 377.4 331.1 378.2V393.0H180.9V378.2Q186.4 377.6 196.4 376.6Q206.4 375.5 210.0 374.0Q217.5 371.0 219.9 365.8Q222.4 360.7 222.4 353.6V310.6Q158.8 310.1 127.5 286.1Q96.2 262.1 96.2 214.1V163.1Q96.2 156.5 94.0 152.0Q91.8 147.5 85.2 143.7Q80.4 141.0 73.1 139.6Q65.8 138.2 61.0 137.8V123.0H163.6V219.5Q163.6 232.6 166.1 244.1Q168.5 255.6 175.6 266.3Q181.9 276.2 193.6 283.4Q205.3 290.6 222.4 292.5V162.0Q222.4 155.7 219.9 150.4Q217.5 145.0 210.2 142.6Q204.1 140.5 198.0 139.4Q192.0 138.4 186.2 137.8V123.0H325.8V137.8Q320.0 138.2 313.0 139.7Q306.0 141.2 301.8 142.6Q294.4 145.0 292.0 150.5Q289.6 155.9 289.6 162.0V292.4Q307.1 290.3 318.6 283.2Q330.1 276.2 336.4 266.3Q342.5 257.0 345.5 244.8Q348.4 232.6 348.4 219.5V123.0H451.0Z" fill="url(#psiFill)" filter="url(#softShadow)"/>
+</svg>
